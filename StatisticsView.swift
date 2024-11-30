@@ -1,4 +1,4 @@
-import SwiftUI
+mport SwiftUI
 
 struct StatisticsView: View {
     let users: [User]
