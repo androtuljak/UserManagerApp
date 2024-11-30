@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5C770F092CFB61BE0067DFE0 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F082CFB61BB0067DFE0 /* user.swift */; };
+		5C770F0B2CFB621C0067DFE0 /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F0A2CFB62150067DFE0 /* UserManger.swift */; };
+		5C770F0D2CFB63ED0067DFE0 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F0C2CFB63E00067DFE0 /* AddUserView.swift */; };
+		5C770F112CFB66A20067DFE0 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F102CFB66990067DFE0 /* StatisticsView.swift */; };
+		5C770F132CFB69480067DFE0 /* APIUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F122CFB69400067DFE0 /* APIUserListView.swift */; };
+		5C770F152CFB6A620067DFE0 /* UserManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F142CFB6A560067DFE0 /* UserManagerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5C770EEC2CFB616C0067DFE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +36,12 @@
 		5C770EDA2CFB616A0067DFE0 /* UserManagerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserManagerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C770EEB2CFB616C0067DFE0 /* UserManagerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserManagerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C770EF52CFB616C0067DFE0 /* UserManagerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserManagerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C770F082CFB61BB0067DFE0 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		5C770F0A2CFB62150067DFE0 /* UserManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManger.swift; sourceTree = "<group>"; };
+		5C770F0C2CFB63E00067DFE0 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		5C770F102CFB66990067DFE0 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		5C770F122CFB69400067DFE0 /* APIUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserListView.swift; sourceTree = "<group>"; };
+		5C770F142CFB6A560067DFE0 /* UserManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +90,12 @@
 		5C770ED12CFB616A0067DFE0 = {
 			isa = PBXGroup;
 			children = (
+				5C770F142CFB6A560067DFE0 /* UserManagerApp.swift */,
+				5C770F122CFB69400067DFE0 /* APIUserListView.swift */,
+				5C770F102CFB66990067DFE0 /* StatisticsView.swift */,
+				5C770F0C2CFB63E00067DFE0 /* AddUserView.swift */,
+				5C770F0A2CFB62150067DFE0 /* UserManger.swift */,
+				5C770F082CFB61BB0067DFE0 /* user.swift */,
 				5C770EDC2CFB616A0067DFE0 /* UserManagerApp */,
 				5C770EEE2CFB616C0067DFE0 /* UserManagerAppTests */,
 				5C770EF82CFB616C0067DFE0 /* UserManagerAppUITests */,
@@ -236,6 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C770F0B2CFB621C0067DFE0 /* UserManger.swift in Sources */,
+				5C770F112CFB66A20067DFE0 /* StatisticsView.swift in Sources */,
+				5C770F152CFB6A620067DFE0 /* UserManagerApp.swift in Sources */,
+				5C770F0D2CFB63ED0067DFE0 /* AddUserView.swift in Sources */,
+				5C770F132CFB69480067DFE0 /* APIUserListView.swift in Sources */,
+				5C770F092CFB61BE0067DFE0 /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
